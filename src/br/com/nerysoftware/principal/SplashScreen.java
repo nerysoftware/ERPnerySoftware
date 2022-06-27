@@ -6,14 +6,9 @@
 package br.com.nerysoftware.principal;
 
 import br.com.nerysoftware.connection.ConnectionDB;
-import br.com.nerysoftware.os.OC;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JProgressBar;
@@ -48,7 +43,7 @@ public class SplashScreen extends javax.swing.JFrame {
       
        //CHAMAR O FORMULARIO DE LOGIN
        public void run(){
-    
+    //isso é uma possivel logica para bloqueio que será via DB
         String status = "A";
          if(status == "B"){
            System.out.println("[Bloqueio]");          
