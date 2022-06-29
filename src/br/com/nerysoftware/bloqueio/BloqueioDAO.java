@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author agn_a
+ * @author nerysoftware
  */
 public class BloqueioDAO {
     

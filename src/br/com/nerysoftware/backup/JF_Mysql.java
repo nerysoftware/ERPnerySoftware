@@ -6,7 +6,6 @@
 /*
  * JF_Mysql.java
  *
- * Created on 17/07/2011, 12:10:26
  */
 package br.com.nerysoftware.backup;
 
@@ -17,7 +16,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author michel
+ * @author nerysoftware
  */
 public class JF_Mysql extends javax.swing.JFrame {
 Connection con = null; //variável para usar em conexão de banco de dados.

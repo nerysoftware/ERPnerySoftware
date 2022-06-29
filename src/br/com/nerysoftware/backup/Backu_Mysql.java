@@ -6,7 +6,7 @@ package br.com.nerysoftware.backup;
 
 /**
  *
- * @author michel
+ * @author nerysoftware
  */
 public class Backu_Mysql {
 

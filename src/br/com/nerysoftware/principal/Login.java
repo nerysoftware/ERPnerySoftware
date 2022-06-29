@@ -233,6 +233,7 @@ public void dataHora(){
         usuario = new app.bolivia.swing.JCTextField();
         jLabel4 = new javax.swing.JLabel();
         senha = new jpass.JRPasswordField();
+        jLabel2 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         btnEntrar = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
@@ -326,6 +327,12 @@ public void dataHora(){
             }
         });
         painelImgCab.add(senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 340, 180, -1));
+
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Century Schoolbook", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Versão 0.00");
+        painelImgCab.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 460, -1, -1));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/principal/sair2.png"))); // NOI18N
         jButton2.setBorder(null);
@@ -464,6 +471,7 @@ public void dataHora(){
     private javax.swing.JLabel hora;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

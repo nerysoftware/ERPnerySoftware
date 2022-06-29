@@ -6,7 +6,7 @@ package br.com.nerysoftware.bloqueio;
 
 /**
  *
- * @author agn_a
+ * @author nerysoftware
  */
 public class BloqueioBean {
     
