@@ -28,6 +28,7 @@ import javax.swing.JInternalFrame;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 import br.com.nerysoftware.os.OC;
+import br.com.nerysoftware.produtos.CadastroProduto;
 import br.com.nerysoftware.produtos.FrmProdutos;
 import br.com.nerysoftware.relatorios.relatorio_produto;
 import br.com.nerysoftware.relatorios.relatorio_vend;

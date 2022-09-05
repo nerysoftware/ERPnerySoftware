@@ -171,6 +171,7 @@ public class FrmProdutos extends javax.swing.JInternalFrame {
         jLabel7 = new javax.swing.JLabel();
         ean = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         tabelaimposto = new org.bolivia.combo.SComboBoxBlue();
         jLabel8 = new javax.swing.JLabel();
@@ -511,6 +512,14 @@ public class FrmProdutos extends javax.swing.JInternalFrame {
         jLabel9.setText("NOME / DESCRIÇÃO");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, -1, -1));
 
+        jButton2.setText("TESTE");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
+
         jTabbedPane1.addTab("PRINCIPAL", jPanel2);
 
         tabelaimposto.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "TRIBUTADO", "SUBSTITUIDO", " ", " " }));
@@ -785,6 +794,11 @@ frame.setVisible(true);
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    CadastroProduto cadastroProduto = new CadastroProduto();
+   cadastroProduto.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel NCM;
@@ -801,6 +815,7 @@ frame.setVisible(true);
     private javax.swing.JButton excluir;
     private javax.swing.JButton excluirT;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

@@ -141,7 +141,7 @@ public class SplashScreen extends javax.swing.JFrame {
         jLabel1.setText("© Nery Software");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, -1, -1));
 
-        txt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/principal/FUNDO.jpg"))); // NOI18N
+        txt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/nerysoftware/imagens/principal/FUNDO.jpg"))); // NOI18N
         txt.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(txt, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, -10, 730, 370));
 
